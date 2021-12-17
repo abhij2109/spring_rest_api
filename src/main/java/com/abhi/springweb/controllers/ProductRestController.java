@@ -40,7 +40,7 @@ public class ProductRestController {
 	}
 	
 	@RequestMapping(value = "/products/{id}", method = RequestMethod.DELETE)
-	
+	// Delete Product methods.
 	public void deleteProduct(@PathVariable("id")int id) {
 		repository.deleteById(id);
 	}
