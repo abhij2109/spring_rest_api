@@ -31,6 +31,7 @@ class SpringrestapiApplicationTests {
 		assertNotNull(newProduct);
 		assertNotNull(newProduct.getId());
 		assertEquals("Samsung Mobile",newProduct.getName());
+		System.out.println("Test Successfully ran");
 	}
 	
 	@Test
